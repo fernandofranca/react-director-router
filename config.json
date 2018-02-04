@@ -1,0 +1,7 @@
+{
+	"scripts": {
+		"fileName": "component",
+		"entry": "index",
+		"library": "Component"
+	}
+}
