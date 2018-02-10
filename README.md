@@ -2,16 +2,16 @@
 A versatile React Router based on [Director](https://github.com/flatiron/director) 
 
 ## Features
-- Auto wraps views with custom Higher Order Components.
 - Inject route props into your views (route parameters, query parameters).
 - Inject custom props into your views.
-- Route handler functions be fired on route change and will receive route params, query params and injected props.
-- Small footprint.
+- Auto wraps views with any chosen Higher Order Component.
+- Route handler functions will be fired on route change and will receive route params, query params and injected props.
+- Small footprint (7kb gzipped).
 
 ## Advantages
 Makes your components cleaner by:
 
-- discouraging to rely on `componentDidMount` for http operations or state management. 
+- discouraging to rely on `componentDidMount` for async data loading or state management. 
 - avoiding repetitive "glue code" by auto wrapping HOCs.
 
 By using route handlers your view components can be **more functional**, **more view related** and carry **less business logic**.
