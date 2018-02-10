@@ -28,7 +28,7 @@ Therefore  view component tests would be simpler.
 
 ### App.js
 ```
-import Router from '../../component'
+import Router from 'react-director-router'
 
 import HomeView from '../Views/HomeView'
 import BookWithStatus from '../Views/BookWithStatus'
