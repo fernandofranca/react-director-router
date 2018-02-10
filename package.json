@@ -1,6 +1,6 @@
 {
 	"name": "react-director-router",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A versatile router",
 	"main": "dist/main.js",
 	"license": "MIT",
